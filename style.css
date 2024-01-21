@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body.home-page {
+    background-image: url('http://localhost/BankingSystem/images/p7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.customerlist-page {
+    background-image: url('http://localhost/BankingSystem/images/p4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.customerdata-page {
+    background-image: url('http://localhost/BankingSystem/images/p4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.transfermoney-page {
+    background-image: url('http://localhost/BankingSystem/images/p9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    color: #36454F;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin:0;
+    padding: 0;
+}
+
+.typewriter {
+    display: flex;
+    justify-content: center;
+    height: 20px; /* adjust this value as per your needs */
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    letter-spacing: .2em;
+    animation: 
+        typing 5s steps(100, end),
+        blink-caret .75s step-end infinite;
+    color: black;
+    font-weight: bold;
+}
+
+@keyframes typing {
+    from { width: 80% }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+
+h1 {
+    color:cornflowerblue;
+    text-align: center;
+    margin-top: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.customer-table tr {
+    color:gold; /* Set your desired color here */
+    font-weight: bold;
+  }
+  
+.form-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="number"],
+form input[type="submit"] {
+    padding: 10px;
+}
+
+form input[type="submit"] {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+.customer-details {
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    background: transparent;
+    font-weight:800;
+}
+
+.customer-details p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.customer-details p:before {
+    content: '\2022';
+    color: #6cc04a;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+a {
+    display: block;
+    width: 240px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: #6cc04a;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.success {
+    color:#fff; 
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.back-button {
+    display: block;
+    width: 250px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: #4CAF50; /* green */
+    color:#fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#to_customer_id {
+    height: 35px; /* Adjust as needed */
+}
+
+
+
+
+
+
